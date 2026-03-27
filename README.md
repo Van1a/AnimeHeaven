@@ -1,4 +1,6 @@
-# 🌸 AnimeHeaven Scraper
+# AnimeHeaven Scraper
+**Tired of skipping ads? Bored of clunky designs? Got free time to build something useful?
+Van1a AnimeHeaven Scraper makes it easy to fetch anime details and you can even self-host it.**
 
 > A Node.js scraper for [AnimeHeaven](https://animeheaven.me) — fetch anime lists, details, episodes, tags, search results, and random picks with ease.
 
@@ -27,7 +29,7 @@ const anime = new AnimeHeaven("https://animeheaven.me/");
 
 (async () => {
   const list   = await anime.getAnimeList();
-  const fall   = await anime.getAnimeList("https://animeheaven.me/2025fall.php);
+  const fall   = await anime.getAnimeList("https://animeheaven.me/2025fall.php");
   const info   = await anime.getAnimeInfo("https://animeheaven.me/anime.php?xsqh7");
   const watch  = await anime.getAnimeWatch("https://animeheaven.me/gate.php", "ccf85b8102595ce43434b9ec92b4266a);
   const tag    = await anime.getAnimeTag("https://animeheaven.me/tags.php?tag=Cars");
