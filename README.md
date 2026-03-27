@@ -31,7 +31,7 @@ const anime = new AnimeHeaven("https://animeheaven.me/");
   const list   = await anime.getAnimeList();
   const fall   = await anime.getAnimeList("https://animeheaven.me/2025fall.php");
   const info   = await anime.getAnimeInfo("https://animeheaven.me/anime.php?xsqh7");
-  const watch  = await anime.getAnimeWatch("https://animeheaven.me/gate.php", "ccf85b8102595ce43434b9ec92b4266a);
+  const watch  = await anime.getAnimeWatch("https://animeheaven.me/gate.php", "ccf85b8102595ce43434b9ec92b4266a");
   const tag    = await anime.getAnimeTag("https://animeheaven.me/tags.php?tag=Cars");
   const search = await anime.getAnimeSearch("Naruto");
   const random = await anime.getAnimeRandom();
